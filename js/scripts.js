@@ -3,7 +3,8 @@ $(document).ready(function() {
     event.preventDefault();
     var name = $("input#name").val();
     var food = $("select#favFood").val();
-    $(".showName").text(name + ' ' + food);
+    var music = $("select#favMusic").val();
+    $(".showName").text(name + ', ' + food + ', ' + music);
 
   // $(".showName").show();
   
