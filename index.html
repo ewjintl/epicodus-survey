@@ -14,17 +14,21 @@
   <h1>Earn $(x)* by Filling Out This Quick Survey! </h1>
 </div>
 <body>
-  <div id="basicForm">
-    <form action="form-group">
-      <label for="name">Please enter your name:</label>
-      <input id="name" class="form-control" type="text">
+
+  <div> 
+    <form id="basicForm">
+      <div class="form-group">
+        <label for="name">Please enter your name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Show me the money!</button><br>
     </form>
   </div>
   
   <div id="dropDown1">
     <h2>Please select your favorite food:</h2>
-    <form action="form-group">
-        <select class="form-control" id="beverage">
+    <form action="form-group" >
+        <select class="form-control"id="favFood">
             <option value="Pizza">Pizza</option>
             <option value="Pasta">Pasta</option>
             <option value="Sushi">Sushi</option>
@@ -35,10 +39,10 @@
     </form>
   </div>
 
-  <div id="dropDown2">
+  <!-- <div id="dropDown2">
       <h2>Please select your favorite type of music:</h2>
       <form action="form-group">
-          <select class="form-control" id="beverage">
+          <select class="form-control" id="favMusic">
               <option value="Reggae">Reggae</option>
               <option value="Rock">Rock</option>
               <option value="EDM">EDM</option>
@@ -46,12 +50,11 @@
               <option value="R&B">R&B</option>
               <option value="Trap">Trap</option>
             </select>
-      </form>
-  </div><br>
-  <button type="submit" class="btn">Show me the money!</button>
-<divc class="container">
-  <div id="output">Your summary:</div>
-</div>
+      </form> -->
+
+  <div>
+   <p>Your summary: <span class="showName"></span></p>
+  </div>
 
 </body>
 </html>
